@@ -1,0 +1,13 @@
+/*.container .text is a descendent combinator 
+(no space)
+
+  .container.text is a chaining selector
+  (no space)
+  
+  Shares the same level of specificity*/
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
